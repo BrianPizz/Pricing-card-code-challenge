@@ -4,7 +4,7 @@ html {
   font-size: 16px;
 }
 body {
-  padding: 200px;
+  padding: 20px;
 }
 h2, h4, p {
   margin: 0;
@@ -109,4 +109,11 @@ ul {
   list-style: none;
   font-size: 0.8rem;
   opacity: 0.8;
+}
+
+@media (max-width: 650px){
+  #bottom-left, #bottom-right, #card {
+    width: 100%;
+    height: auto;
+  }
 }
